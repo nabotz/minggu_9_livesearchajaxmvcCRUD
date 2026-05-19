@@ -1,0 +1,20 @@
+1. Download file zip minggu_9_livesearchajaxmvcCRUD, yang ada di kulino
+2. Ektrak file tersebut dan letakkan pada folder htdocs
+3. Agar program download excel dan download pdf bisa di gunakan, install Composer terlebih  dahulu
+4. Agar php dapat digunakan untuk menyimpan file excel dan php, terlebih dahulu
+5. Unduh terlebih dahulu master composer dari  kunjungi link https://getcomposer.org/download/
+6. di laman ini muncul conten Download Composer, klik pada tulisan "Composer-Setup.exe" pada 
+   "Download and run Composer-Setup.exe - it will install the latest composer version whenever it is executed."
+7. setelah sukses download install pada komputer Anda
+8. setelah sukses install, masuk ke folder 
+   C:\htdocs\minggu_9_livesearchajaxmvcCRUD\
+   tuliskan perintah "composer require phpoffice/phpspreadsheet", ini di install agar php bisa 
+   menyimpan file excel, seperti dibawah ini
+   C:\htdocs\minggu_9_livesearchajaxmvcCRUD\composer require phpoffice/phpspreadsheet  [enter]
+9. Agar dapat menyimpan file pdf, install juga seperti dibawah ini
+   C:\htdocs\minggu_9_livesearchajaxmvcCRUD\composer require dompdf/dompdf  [enter]
+   hasil dari install ini adalah folder "vendor" dan akan ada di folder C:\htdocs\minggu_9_livesearchajaxmvcCRUD\ 
+10. Setelah composer terinstall di komputer dan folder "vendor" sudah ada di folder htdocs, lakukan
+11. modifikasi sehingga aplikasi livesearchajaxmvcCRUD dapat berfungsi program CRUD lainnya
+    (tambah data, koreksi data dan hapus data)
+	
